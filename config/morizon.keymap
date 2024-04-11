@@ -44,11 +44,11 @@
 
         symbol_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR                       &bt BT_CLR_ALL  &trans     &trans    &trans    &trans     &ext_power EP_TOG
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                           &kp N6          &kp N7     &kp N8    &kp N9    &kp DQT    &kp UNDER
-&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12     &kp NUBS  &kp TILDE  &kp PIPE        &kp EQUAL  &kp LBRC  &kp RBRC  &kp N0     &kp GRAVE
-&kp TILDE   &kp AT        &kp LBKT      &kp RBKT      &kp PLUS      &kp PRCNT   &trans    &trans     &kp CARET       &kp ASTRK  &kp LT    &kp GT    &kp QMARK  &kp EQUAL
-&trans      &trans        &trans        &trans        &trans        &trans      &trans    &trans     &kp SPACE       &trans     &trans    &trans    &mo 3      &kp NUBS
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR                       &bt BT_CLR_ALL  &trans     &trans    &trans    &trans           &ext_power EP_TOG
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                           &kp N6          &kp N7     &kp N8    &kp N9    &kp PRINTSCREEN  &kp UNDER
+&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12     &kp NUBS  &kp TILDE  &kp PIPE        &kp EQUAL  &kp LBRC  &kp RBRC  &kp N0           &kp GRAVE
+&kp TILDE   &kp AT        &kp LBKT      &kp RBKT      &kp PLUS      &kp PRCNT   &trans    &trans     &kp CARET       &kp ASTRK  &kp LT    &kp GT    &kp QMARK        &kp EQUAL
+&trans      &trans        &trans        &trans        &trans        &trans      &trans    &trans     &kp SPACE       &trans     &trans    &trans    &mo 3            &kp NUBS
             >;
         };
 
