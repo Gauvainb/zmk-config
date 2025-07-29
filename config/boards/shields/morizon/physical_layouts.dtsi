@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2023 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/ {
+    key_physical_attrs: key_physical_attrs {
+        compatible = "zmk,physical-layout-position";
+        #size-cells = <7>;
+        #address-cells = <0>;
+        
+        // Default key attributes: width, height, x, y, rotation, rx, ry
+        // Units are in 1/100ths of a key unit (so 100 = 1u)
+    };
+};
