@@ -1,10 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
- / {
-    identity_transform: identity_transform {
-        compatible = "zmk,matrix-transform";
-    };
-
+/ {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &morizon_layout;
@@ -13,7 +9,7 @@
     morizon_layout: morizon_layout {
         compatible = "zmk,physical-layout";
         display-name = "Morizon";
-        transform = <&identity_transform>;
+        transform = <0>;
         keys = <
             // Rangée 1 (0-11)
             100 100   0   0 0 0 0  // 0: Q
