@@ -9,7 +9,7 @@
     morizon_layout: morizon_layout {
         compatible = "zmk,physical-layout";
         display-name = "Morizon";
-        transform = <0>;
+        
         keys = <
             // Rangée 1 (0-11)
             100 100   0   0 0 0 0  // 0: Q
