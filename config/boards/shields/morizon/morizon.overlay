@@ -10,7 +10,7 @@
     morizon_layout: morizon_layout {
         compatible = "zmk,physical-layout";
         display-name = "Morizon";
-        
+        transform = <MATRIX_TRANSFORM_IDENTITY>;
         keys
             = <&key_physical_attrs 100 100    0    0 0 0 0>  // Q
             , <&key_physical_attrs 100 100  100    0 0 0 0>  // W
