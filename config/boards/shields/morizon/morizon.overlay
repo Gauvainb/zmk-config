@@ -7,11 +7,6 @@
  #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-
-    zmk,studio {
-        compatible = "zmk,studio";
-    };
-
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
