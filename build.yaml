@@ -13,19 +13,19 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: horizon
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: morizon
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: fract
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: tackle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
